@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <title>El jardin de Lujan</title>
+</head>
+<body>
+    <header>
+        <h1>El jardin de Luján</h1>
+        <nav>
+            <a href="">inicio</a>
+            <a href="" class="nav-hover">nuestras plantas</a>
+            <a href="">contacto</a>
+        </nav>
+        <div class="logo-container">
+            <img src="./assets/images/logo.png" alt="Logotipo">
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Nuestras plantas</h2>
+            <div class="section1-body">
+                <div class="menu">
+                    <h3>Filtrar</h3>
+                    <div class="botones">
+                        <input type="button" value="De interior">
+                        <input type="button" value="De exterior">
+                        <input type="button" value="Pocos cuidados">
+                        <input type="button" value="Mucha luz">
+                        <input type="button" value="Poca luz">
+                    </div>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Monstera</h3>
+                        <div class="card-body">
+                            <img src="./assets/images/monstera.png" alt="Monstera">
+                            <ul>
+                                <li>hojas grandes</li>
+                                <li>tiene fruto</li>
+                                <li>interior o exterior</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Calathea</h3>
+                        <div class="card-body">
+                            <img src="./assets/images/calathea.png" alt="Calathea">
+                            <ul>
+                                <li>hojas multicolor</li>
+                                <li>selvatica</li>
+                                <li>plantas de interior</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Strelitzia Nicolai</h3>
+                        <div class="card-body">
+                            <img src="./assets/images/strelitzia-nicolai.png" alt="Strelitzia Nicolai">
+                            <ul>
+                                <li>hojas grandes</li>
+                                <li>tiene flor</li>
+                                <li>jardines y parques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section2">
+            <img src="./assets/images/macetas.jpeg" alt="Macetas" class="imagen-izq">
+            <div class="tabla">
+                <h2>Encontrá la planta ideal para vos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Cuidados</th>
+                        </tr>
+                        <tr>
+                            <th>Muchos</th>
+                            <th>Intermedios</th>
+                            <th>Pocos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Azalea</td>
+                            <td>Sansevieria</td>
+                            <td>Ficus</td>
+                        </tr>
+                        <tr>
+                            <td>Orquidea</td>
+                            <td>Aloe Vera</td>
+                            <td>Potus</td>
+                        </tr>
+                        <tr>
+                            <td>Calathea</td>
+                            <td>Helecho</td>
+                            <td>Cinta</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">*basado en necesidades de luz y agua</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <img src="./assets/images/macetas.jpeg" alt="Macetas">
+        </section>
+        
+    </main>
+    <footer>
+        <h3>Cohort 41</h3>
+        <form action="./showData.html" method="get">
+            <fieldset>
+                <legend>Suscribite al newsletter</legend>
+                <label>
+                    Mail:
+                    <input type="email" name="email" id="email">
+                </label>
+                <div class="radio-container">
+                    <span>
+                        Quiero recibirlo:   
+                    </span>
+                    <label>
+                        Semanalmente
+                        <input type="radio" name="option" value="semanalmente">
+                    </label>
+                    <label>
+                        Mensualmente
+                        <input type="radio" name="option" value="mensualmente">
+                    </label> 
+                </div>
+                <input type="submit" value="Enviar!" class="submit">
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
