@@ -232,8 +232,8 @@ fieldset{
 }
 
 @media (max-width:319px){
-     header{
-        height:30vh;
+    .logo-container{
+        visibility:hidden;
     }
 }
 
