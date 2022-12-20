@@ -231,7 +231,7 @@ fieldset{
     }
 }
 
-@media (max-width:219px){
+@media (max-width:319px){
     .logo-container{
         visibility:hidden;
     }
