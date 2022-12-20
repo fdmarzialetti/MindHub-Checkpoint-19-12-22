@@ -231,6 +231,16 @@ fieldset{
     }
 }
 
+@media (max-width:219px){
+    .logo-container{
+        visibility:hidden;
+    }
+    
+    .logo-container img{
+        visibility:hidden;
+    }
+}
+
 @media (min-width:1024px){
     .section1-body{
         width: 100%;
@@ -300,5 +310,7 @@ fieldset{
     .tabla{
         width:55%
     }
+    
+    
 
 }
