@@ -231,13 +231,9 @@ fieldset{
     }
 }
 
-@media (min-width:319px){
-    .logo-container{
-        visibility:hidden;
-    }
-    
-    .logo-container img{
-        visibility:hidden;
+@media (max-width:319px){
+     header{
+        height:30vh;
     }
 }
 
